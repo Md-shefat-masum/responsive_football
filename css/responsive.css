@@ -90,7 +90,7 @@
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .container {
         width: 576px;
         margin: 0 auto;
@@ -188,7 +188,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .container {
         width: 768px;
         margin: 0 auto;
@@ -259,4 +259,4 @@
 
 }
 
-@media (min-width: 992px) {}
+/* @media (min-width: 992px) {} */
